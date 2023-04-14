@@ -1,0 +1,32 @@
+html {
+  background-color: #667799;
+  font-size: 21px;
+  font-family: 'Kanit', sans-serif;
+}
+
+h1 {
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  text-shadow: 3px 3px 1px lightblue;
+}
+
+p, li {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0px;
+}
+
+body {
+  width: 600px; /* заставляет тело быть всегда 600 пикселей в ширину. */
+  margin: 0 auto; /* когда вы устанавливаете два значения для таких свойств как margin или padding, первое значение элемента влияет на верхнюю и нижнюю сторону (делает их 0 в данном случае), и второе значение на левую и правую сторону (здесь, auto является особым значением, которое делит доступное пространство по горизонтали поровну слева и справа). Вы также можете использовать один, три или четыре значения */
+  background-color: #3FBFBF; /* цвет фона */
+  padding: 0 20px 20px 20px; /* внутри border*/
+  border: 5px solid black; /* рамка */
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
